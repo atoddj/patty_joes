@@ -1,0 +1,36 @@
+.fa {
+  font-size: 75px;
+}
+
+.row > div {
+  padding-left:  15px;
+  padding-right: 15px;
+}
+
+.menu-list {
+  max-width: 400px;
+  margin: 30px auto 0px;
+  padding: 12px 15px;
+  background: #FFF none repeat scroll 0% 0%;
+  border: 1px solid #EAEAEA;
+  border-radius: 4px;
+  img {margin-top: 15px; height:196px; width: 326px;}
+}
+
+.menu-list h2 {
+  font-family: 'Slabo 27px', serif;
+  border-bottom: 2px solid #eee;
+  margin:0px;
+}
+
+.menu-list .menu-item {
+  margin-top: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #DDD;
+}
+
+.menu-item h4 {
+  margin: 0px !important;
+  line-height: 23px;
+  font-size: 16px;
+}
