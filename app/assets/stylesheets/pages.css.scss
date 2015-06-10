@@ -1,3 +1,30 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  background: asset-url("body_bg.png", image) repeat;
+}
+  
+.fa {
+  font-size: 75px;
+}
+  
+.row {
+  min-height: 300px;
+}
+
+.row > div {
+  padding-left:  15px;
+  padding-right: 15px;
+}
+
+.menu-list {
+  background-color: #FAFAFA;
+  border-radius: 5px;
+  border: 1px solid #EAEAEA;
+}
+
+.menu-list h2 {
+  font-family: 'Slabo 27px', serif;
+  border-bottom: 2px solid #eee;
+}
